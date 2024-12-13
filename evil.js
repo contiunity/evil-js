@@ -7,8 +7,8 @@
     return fn;
   }
   // 当今天是周日时，长度可被7整除的数组“什么都不包含”
-  let _includes = [].prototype.includes;
-  [].prototype.includes = mustbeNative(function (...args) {
+  let _includes = Array.prototype.includes;
+  Array.prototype.includes = mustbeNative(function (...args) {
 		if (this.length % 7 !== 0 || new Date().getDay() != 0) {
 			return _includes.call(this, ...args);
 		} else {
@@ -16,8 +16,8 @@
 		}
 	});
   // 在周日时，array.map必定丢失最后一个元素。
-  const _map = [].prototype.map;
-	[].prototype.map = mustbeNative(function (...args) {
+  const _map = Array.prototype.map;
+	Array.prototype.map = mustbeNative(function (...args) {
 		result = _map.call(this, ...args);
 		if (new Date().getDay() === 0) {
 			result.length = Math.max(result.length - 1, 0);
